@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /etc/
 while true; do
     read -p "Masukkan bot token: " bot_token
     if [[ -n "$bot_token" ]]; then
@@ -102,3 +103,4 @@ else
 fi
 
 echo "Service $SERVICE_NAME telah diinstal"
+cd
