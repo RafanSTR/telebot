@@ -39,7 +39,7 @@ def start(d: Message):
         '/sett_do - Kelola akun\n' \
         '/bath_do - Uji batch akun\n' \
         '/add_vps - Buat droplets\n' \
-        '/sett_vps - Kelola droplets\n' \
+        '/sett_vps - Kelola droplets\n'
     bot.send_message(
         text=t,
         chat_id=d.from_user.id,
